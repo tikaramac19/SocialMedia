@@ -28,6 +28,9 @@ const ProfileCard = () => {
         </div>
         <hr />
       </div>
+      <span className="profileLink">
+          My Profile
+      </span>
     </div>
   );
 };
