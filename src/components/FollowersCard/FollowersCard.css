@@ -24,5 +24,29 @@
 .follower>div >.name{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     align-items: center;
+
+}
+.follower>div >.name>span:nth-of-type(1){
+        font-weight: bold;
+}
+.follower>div >.name>span:nth-of-type(2){
+    color: rgb(63, 63, 63);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background:linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+    transition: all 100ms ease;
+    height: 2rem;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
 }
