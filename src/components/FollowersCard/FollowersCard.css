@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    border: none;
+    border: transparent;
     outline: none;
     border-radius: 0.5rem;
     background:linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
@@ -48,5 +48,12 @@
     height: 2rem;
     padding: 20px;
     text-align: center;
+   
+}
+.button:hover{
     cursor: pointer;
+    border: 2px solid #f95f35;
+    background:linear-gradient(4deg, #f9a225 0%, #fff 100%);
+    color: black;
+    
 }
