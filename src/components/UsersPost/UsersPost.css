@@ -1,0 +1,28 @@
+.UsersPost{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    gap: 1rem;
+    /* justify-content: space-around; */
+}
+.UsersPost>img{
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.postReaction{
+    display: flex;
+    margin-top: 0.4rem;
+    gap: 1rem;
+}
+.postReaction>img{
+    cursor: pointer;
+
+}
+.UsersPost>span{
+    /* margin-top: 10px; */
+    
+}
