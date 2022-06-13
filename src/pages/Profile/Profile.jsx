@@ -1,10 +1,15 @@
 import React from 'react'
-import "./Profile.css"
+import styles from "./Profile.module.css"
+
+import ProfileSide from '../../components/profileSide/ProfileSide'
 const Profile = () => {
   return (
-    <div className="Profile">
-        This is profile Component
+    <>
+    <div className={styles.Profile}>
+      <ProfileSide/>
     </div>
+    
+    </>
   )
 }
 
