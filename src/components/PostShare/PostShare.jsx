@@ -1,7 +1,7 @@
 import React, {useState, useRef} from 'react'
 import "./PostShare.css"
 import {UilScenery , UilPlayCircle ,UilLocationPoint, UilSchedule, UilTimes} from '@iconscout/react-unicons'
-import profilerImage from "../../img/profileImg.jpg";
+import profilerImage from "../../img/tikuprofile.jpg";
 const PostShare = () => {
     const [image, setImage] = useState(null);
     const imageRef = useRef();

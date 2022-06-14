@@ -20,7 +20,7 @@ const RightSide = () => {
         <TrendCard/> 
 
         <button className='button rbtn'>
-            Share
+            Log Out
         </button>
     
 
