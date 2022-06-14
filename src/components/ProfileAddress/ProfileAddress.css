@@ -1,0 +1,36 @@
+.ProfileAddress{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.info-section{
+    font-size: 0.7rem;
+    font-size: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+
+}
+.more-info div{
+    padding: 0.2rem 0rem;
+}
+.more-info div span{
+    font-weight: bold;
+    
+}
+.logout{
+    margin-top: 5.5rem;
+
+}
+.logout button{
+    float: right;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    
+}
+
+
