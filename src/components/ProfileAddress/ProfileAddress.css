@@ -24,13 +24,25 @@
 }
 .logout{
     margin-top: 5.5rem;
+    height: fit-content;
+    height: 41px;
 
 }
 .logout button{
-    float: right;
-    font-size: 1.1rem;
-    border: 2px solid transparent;
     
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: transparent;
+    outline: none;
+    border-radius: 0.5rem;
+    background:linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+    transition: all 100ms ease;
+    height: 2rem;
+    padding: 20px 27px;
+    text-align: center;
 }
 
 
