@@ -76,8 +76,11 @@
 
 .profileLink{
     font-weight: bold;
-    color: orange;
     text-align: center;
     cursor: pointer;
     margin-bottom: 0.6rem;
+}
+.profileLink a{
+    text-decoration: none;
+    color: orange;
 }
