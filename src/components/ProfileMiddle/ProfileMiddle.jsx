@@ -1,11 +1,15 @@
 import React from 'react'
-
+import "../../components/ProfileMiddle/ProfileMiddle.css"
+import ProfileCard from "../ProfileCard/ProfileCard"
 const ProfileMiddle = () => {
   return (
     <>
     
     <div className="ProfileMiddle">
-        Middle page
+       <ProfileCard />
+
+       {/* profilepost here */}
+       
     </div>
     
     </>
