@@ -1,7 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./FollowersCard.css"
 import Followers from '../../Data/FollowersData'
-const FollowersCard = () => {
+const FollowersCard = (props) => {
+
+  const {follow,handleFollow}=props;
+
+  const handleClick = (name) =>{
+
+handleFollow(name)
+
+  }
   return (
     <>
     <div className="FollowersCard">
@@ -19,8 +27,8 @@ const FollowersCard = () => {
                         <span>{follower.username}</span>
                       </div>
                     </div>
-                    <button className='button'>
-                      Follow
+                    <button className='button' onClick={()=>handleClick(follower.name)}>
+                      {follower.name==follow?"unfollow":"follow"}
                     </button>
                 </div>
                 
