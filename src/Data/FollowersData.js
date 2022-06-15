@@ -11,8 +11,8 @@ const Followers = [
             img : img1
         },
         {
-            name : "Bibas Giri",
-            username :"bibasgiri",
+            name : "Bibash Giri",
+            username :"bibashgiri",
             img : img2
         },
         {
