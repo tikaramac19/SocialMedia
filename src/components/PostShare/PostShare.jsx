@@ -7,6 +7,7 @@ const PostShare = () => {
     const imageRef = useRef();
 
     const onImageChange =(e) =>{
+        console.log(e,"imageRef")
             if(e.target.files && e.target.files[0] ){
                 let img = e.target.files[0];
 
@@ -47,7 +48,6 @@ const PostShare = () => {
                  <UilSchedule />
                  Shedule
              </div>
-             
              <button className="button" style={{height : "3rem", fontSize:"18px",padding: "1rem 2rem"}}>
                  Share
              </button>
